@@ -1,3 +1,8 @@
+---
+layout: default
+title: Install Python Using Homebrew
+---
+
 # Installations
 
 ## How to Intsall Python on Mac OS -- Self Notes
