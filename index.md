@@ -13,7 +13,7 @@ title: Install Python Using Homebrew
 1. Open Terminal.
 2. Run the following command to install Homebrew:
    ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
 3.	Follow the on-screen instructions to complete the installation.
@@ -57,9 +57,9 @@ title: Install Python Using Homebrew
 1. Add the following lines to your shell configuration file:
    •	For Zsh (~/.zshrc):
    ```bash
-   export PYENV_ROOT="$HOME/.pyenv"
-   export PATH="$PYENV_ROOT/bin:$PATH"
-   eval "$(pyenv init --path)"
+    export PYENV_ROOT="$HOME/.pyenv"
+    export PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init --path)"
    ``` 
 
 2. Reload your shell configuration:
